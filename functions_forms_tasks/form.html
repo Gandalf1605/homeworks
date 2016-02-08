@@ -10,9 +10,16 @@
 
 <body>
 
-<form method='post' action='register.php'>
-    Первое слово: <input type='text' name='word1'> <br>
-    Второе слово: <input type='text' name='word2'> <br>
+<form action='register.php' method='get'>
+    <label for="word1">
+        Первое слово:
+    </label>
+    <input id="word1" name="word1" type='text' /> <br>
+    <label for="word2">
+        Второе слово:
+    </label>
+    <input id="word2" name="word2" type='text' /> <br>
+
     <input type='submit'>
 </form>
 
